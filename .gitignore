@@ -1,0 +1,50 @@
+# Data and outputs (large / generated)
+data/
+trajectories/
+finetune/adapters/
+adapters/
+
+# Model checkpoints and weights
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.bin
+checkpoints/
+
+# Python environments
+.venv*/
+venv/
+env/
+
+# Secrets
+.env
+.env.*
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.so
+*.dylib
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+.venv/
+__pycache__/
+*.pyc
+.env
+*.fits
+data/
+.ipynb_checkpoints/

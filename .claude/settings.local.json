@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p data tools agent eval trajectories finetune adapters tests)",
+      "Bash(touch tools/fetch.py tools/detrend.py tools/bls.py tools/transit_fit.py tools/diagnostics.py agent/loop.py agent/tool_schemas.py agent/prompts.py eval/dataset.py eval/harness.py eval/metrics.py finetune/build_sft.py finetune/build_dpo.py finetune/train_sft.py finetune/train_dpo.py finetune/serve.py pyproject.toml)",
+      "Bash(pip show *)",
+      "Bash(pip install *)",
+      "Bash(python3 -m pip --version)",
+      "Bash(python3 -m pip install lightkurve astroquery astropy batman-package numpy scipy pandas matplotlib anthropic python-dotenv pytest)",
+      "Bash(python3 -c \"import ensurepip; ensurepip.bootstrap\\(\\)\")",
+      "Bash(apt list *)",
+      "Bash(curl -sS https://bootstrap.pypa.io/get-pip.py)",
+      "Bash(python3)",
+      "Bash(python3 -m venv .venv)",
+      "Bash(.venv/bin/pip install *)",
+      "Bash(sudo apt-get install -y python3.14-venv python3-pip)",
+      "Bash(curl -Ls https://astral.sh/uv/install.sh)",
+      "Bash(sh)",
+      "Bash(~/.local/bin/uv venv *)",
+      "Bash(~/.local/bin/uv pip *)",
+      "Bash(.venv/bin/python *)",
+      "Bash(curl -s https://pypi.org/pypi/batman-package/json)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\(sorted\\(d['releases'].keys\\(\\)\\)[-1]\\)\")",
+      "Bash(python3 *)",
+      "Bash(git *)",
+      "Bash(.venv/bin/pip freeze *)",
+      "Bash(.venv/bin/pip-compile *)"
+    ]
+  }
+}
