@@ -24,7 +24,10 @@
       "Bash(python3 *)",
       "Bash(git *)",
       "Bash(.venv/bin/pip freeze *)",
-      "Bash(.venv/bin/pip-compile *)"
+      "Bash(.venv/bin/pip-compile *)",
+      "Bash(.venv/bin/pytest *)",
+      "Bash(wait *)",
+      "Bash(kill 153840)"
     ]
   }
 }
