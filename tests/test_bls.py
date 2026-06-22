@@ -2,8 +2,6 @@ import pandas as pd
 import pytest
 
 from tools.bls import bls_search
-from tools.detrend import detrend
-from tools.fetch import fetch_lightcurve
 
 # K00001.01 / TrES-2b — the Task 1.2 sanity-check target
 KEPID = 11446443
@@ -30,10 +28,6 @@ def bls_result(flat_lc):
     return bls_search(flat_lc, min_period=1.0, max_period=6.0)
 
 
-@pytest.fixture(scope="module")
-def flat_lc():
-    lc = fetch_lightcurve(KEPID)
-    return detrend(lc)
 
 
 def test_bls_period_within_1pct(bls_result):
