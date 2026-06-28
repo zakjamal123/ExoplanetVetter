@@ -27,7 +27,12 @@
       "Bash(.venv/bin/pip-compile *)",
       "Bash(.venv/bin/pytest *)",
       "Bash(wait *)",
-      "Bash(kill 153840)"
+      "Bash(kill 153840)",
+      "Bash(.venv/bin/pip show *)",
+      "Skill(claude-api)",
+      "Bash(python *)",
+      "Bash(python3.12 *)",
+      "Bash(/home/zakbox/Projects/ExoplanetVetter/.venv/bin/python *)"
     ]
   }
 }
